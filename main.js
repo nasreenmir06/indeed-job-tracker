@@ -163,7 +163,8 @@ function queryGeminiAPI(item) {
   var payload = JSON.stringify({
     "prompt": {
       "text": query
-    }
+    },
+    "temperature": 0.2
   });
 
   var options = {
